@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { DOMWrapper, flushPromises, mount } from '@vue/test-utils';
 import SCombobox from '@/components/combobox/combobox.vue';

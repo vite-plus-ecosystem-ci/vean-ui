@@ -5,7 +5,7 @@
  * This test mirrors exactly what "vean search", "vean view", and
  * "vean add" do when interacting with the remote registry.
  */
-import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll } from 'vite-plus/test';
 import { startRegistryServer } from './helpers/server';
 import type { TestServer } from './helpers/server';
 

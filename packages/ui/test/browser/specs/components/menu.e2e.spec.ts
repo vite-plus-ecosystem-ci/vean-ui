@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { h } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import { SDropdownMenuWrapper } from '@/components/dropdown-menu';
 import { SMenuOptions } from '@/components/menu';
 import type { MenuOptionData } from '@/components/menu';

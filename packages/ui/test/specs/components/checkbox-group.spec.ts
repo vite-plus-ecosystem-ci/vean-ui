@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { mount } from '@vue/test-utils';
 import SCheckboxCardGroup from '@/components/checkbox/checkbox-card-group.vue';
 import SCheckboxGroup from '@/components/checkbox/checkbox-group.vue';

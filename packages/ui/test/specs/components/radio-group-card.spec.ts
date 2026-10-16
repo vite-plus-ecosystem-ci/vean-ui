@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { mount } from '@vue/test-utils';
 import SRadioGroupCard from '@/components/radio-group/radio-group-card.vue';
 import { getA11yViolations } from '../../shared/a11y';

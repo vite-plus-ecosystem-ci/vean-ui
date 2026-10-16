@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest';
+import { describe, expect, it, vi, beforeEach, afterEach } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import { WatermarkCompact, WatermarkRoot } from '@vean/aria/watermark';

@@ -10,7 +10,7 @@
  * The build itself runs in a plain Node child process (see test/bundle/build-sbutton-fixture.mjs).
  */
 import { execFileSync } from 'node:child_process';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 // Vitest runs with the package root (packages/ui) as cwd, where the unit-test config lives.
 const uiRoot = process.cwd();

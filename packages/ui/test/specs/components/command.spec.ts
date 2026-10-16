@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it } from 'vite-plus/test';
 import { DOMWrapper, mount } from '@vue/test-utils';
 import SCommand from '@/components/command/command.vue';
 import { getA11yViolations } from '../../shared/a11y';
