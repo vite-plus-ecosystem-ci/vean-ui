@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 import { h, nextTick } from 'vue';
 import { mount, flushPromises } from '@vue/test-utils';
 import SClipboard from '@/components/clipboard/clipboard.vue';

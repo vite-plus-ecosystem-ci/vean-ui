@@ -1,7 +1,7 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
+import type { Locator } from 'vite-plus/test/browser';
 import { defineComponent, h } from 'vue';
-import { page, userEvent } from 'vitest/browser';
-import type { Locator } from 'vitest/browser';
 import STextarea from '@/components/textarea/textarea.vue';
 import { getA11yViolations } from '../../shared/a11y';
 import { renderComponent } from '../../shared/render';

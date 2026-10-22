@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { defineComponent, h } from 'vue';
 import { mount } from '@vue/test-utils';
 import { CONFIG_PROVIDER_CONTEXT_KEY } from '@vean/aria/constants';

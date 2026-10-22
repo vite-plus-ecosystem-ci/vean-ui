@@ -1,7 +1,7 @@
 /**
  * Tests for import path transformation and icon replacement.
  */
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import { transformImports, transformIcons } from '../src/utils/transformers/transform-import';
 import type { TransformContext } from '../src/utils/transformers/transform-import';
 

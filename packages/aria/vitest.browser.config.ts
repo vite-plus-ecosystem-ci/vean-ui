@@ -1,6 +1,6 @@
+import { defineConfig } from 'vite-plus';
+import { playwright } from 'vite-plus/test/browser-playwright';
 import vue from '@vitejs/plugin-vue';
-import { playwright } from '@vitest/browser-playwright';
-import { defineConfig } from 'vitest/config';
 
 /**
  * Browser-mode config for `@vean/aria` — loaded explicitly via

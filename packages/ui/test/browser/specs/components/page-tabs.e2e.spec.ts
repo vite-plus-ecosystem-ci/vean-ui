@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { page, userEvent } from 'vitest/browser';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import SPageTabs from '@/components/page-tabs/page-tabs.vue';
 import { renderComponent } from '../../shared/render';
 

@@ -4,13 +4,15 @@ packages:
   # ubean writes a runtime package.json into `dist/server`; keep build output out of the workspace.
   - '!apps/**/dist/**'
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vite-plus: latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.6bc2d240a024170c08fbc831f0c201c162afd22e
+  vite-plus: 0.0.0-commit.6bc2d240a024170c08fbc831f0c201c162afd22e
   typescript: npm:typescript-native-bridge@latest
+  vitest: 5.0.5
+  '@vitest/browser-playwright': 5.0.5
 overrides:
-  vite: 'catalog:'
-  vitest: '5.0.5'
   typescript: 'catalog:'
+  vite@*: 'catalog:'
+  vitest@*: 'catalog:'
 shamefullyHoist: true
 ignoreWorkspaceRootCheck: true
 linkWorkspacePackages: true
@@ -37,3 +39,10 @@ minimumReleaseAgeExclude:
   - yuku-parser
   - '@yuku-core/*'
   - '@yuku-toolchain/*'
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'

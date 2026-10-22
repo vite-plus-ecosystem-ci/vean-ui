@@ -1,7 +1,7 @@
 /**
  * Tests for registry dependency validation.
  */
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import { validateRegistryDependencies } from '../src/registry/schema';
 import type { RegistryItem } from '../src/registry/schema';
 

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import SColorSlider from '@/components/color-slider/color-slider.vue';

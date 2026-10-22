@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { createGenerator } from 'unocss';
 import { theme as unoTheme } from '@unocss/preset-mini';
 import { SPACING_GRID_COEFFICIENTS, SPACING_RUNGS } from '@vean/theme';

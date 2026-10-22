@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { getElFromTemplateRef } from '../../../../aria/src/shared';
 import { createMockElement } from '../../shared';
 import { useForwardElement } from '../../../../aria/src/composables/use-forward-element';

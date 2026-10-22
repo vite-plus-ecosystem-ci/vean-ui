@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test';
 import { h } from 'vue';
 import { mount } from '@vue/test-utils';
 import SButtonGroup from '@/components/button/button-group.vue';
