@@ -7,7 +7,7 @@
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
-import { describe, it, expect, beforeAll, afterAll, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, beforeEach, afterEach } from 'vite-plus/test';
 import type { CallToolResult } from '@modelcontextprotocol/sdk/types.js';
 import { createDefaultConfig, writeConfig } from '../src/utils/get-config';
 import { scanInstalledComponents } from '../src/utils/scan-installed';

@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 import { COLLECTION_ITEM_ATTRIBUTE } from '../../../../aria/src/constants';
 import { createMockElement } from '../../shared';
 import { useArrowNavigation } from '../../../../aria/src/composables/use-arrow-navigation';

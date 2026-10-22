@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { getSliderBackgroundStyle, isValidColor, toColorObject, formatColor } from '../../../../aria/src/shared/color';
 
 describe('shared color helpers', () => {

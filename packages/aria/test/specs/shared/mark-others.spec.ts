@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it } from 'vite-plus/test';
 import { markOthers } from '../../../src/shared/mark-others';
 
 function setup(): { target: HTMLElement; sibling: HTMLElement } {

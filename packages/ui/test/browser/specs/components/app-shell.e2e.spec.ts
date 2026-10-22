@@ -1,7 +1,7 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { defineComponent, h, shallowRef } from 'vue';
 import type { ShallowRef, VNodeChild } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import SAppShell from '@/components/app-shell/app-shell.vue';
 import { splitNavCollapsedPaneWidth } from '@/components/app-shell/shared';
 import type { AppShellMode, AppShellProps } from '@/components/app-shell/types';

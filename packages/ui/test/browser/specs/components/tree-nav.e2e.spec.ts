@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page } from 'vite-plus/test/browser';
 import { defineComponent, h, ref } from 'vue';
 import { render } from 'vitest-browser-vue';
-import { page } from 'vitest/browser';
 import type { TreeNavOptionData } from '@/components/tree-nav';
 import STreeNav from '@/components/tree-nav/tree-nav.vue';
 

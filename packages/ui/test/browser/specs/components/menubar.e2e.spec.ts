@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { cdp, page, userEvent } from 'vite-plus/test/browser';
 import { defineComponent, h, ref } from 'vue';
 import { render } from 'vitest-browser-vue';
-import { cdp, page, userEvent } from 'vitest/browser';
 import type { MenuOptionData } from '@/components/menu';
 import SMenubar from '@/components/menubar/menubar.vue';
 import { getA11yViolations } from '../../shared/a11y';

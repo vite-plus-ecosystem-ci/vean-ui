@@ -1,9 +1,9 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
+import { userEvent } from 'vite-plus/test/browser';
 import { h } from 'vue';
 import { isTreeMotionItem, TreeItem, TreeVirtualizerItem } from '@vean/aria/tree';
 import type { FlattenedItem, TreeItemData, TreeMotionListItem } from '@vean/aria/tree';
 import { render } from 'vitest-browser-vue';
-import { userEvent } from 'vitest/browser';
 import STreeVirtualizer from '@/components/tree/tree-virtualizer.vue';
 import STree from '@/components/tree/tree.vue';
 

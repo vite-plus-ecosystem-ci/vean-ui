@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { defineComponent, h } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import SContextMenu from '@/components/context-menu/context-menu.vue';
 import { renderComponent } from '../../shared/render';
 

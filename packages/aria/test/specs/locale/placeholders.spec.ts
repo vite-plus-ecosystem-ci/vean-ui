@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { getPlaceholder } from '../../../src/date/placeholders';
 import { registerLocale } from '../../../src/locale';
 import ar from '../../../src/locale/langs/ar';

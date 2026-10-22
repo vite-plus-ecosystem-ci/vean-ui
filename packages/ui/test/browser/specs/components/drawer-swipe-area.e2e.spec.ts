@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page } from 'vite-plus/test/browser';
 import { h } from 'vue';
-import { page } from 'vitest/browser';
 import SDrawer from '@/components/drawer/drawer.vue';
 import type { DrawerProps } from '@/components/drawer/types';
 import { getPopups, getSwipeArea, renderControlledDrawer, sleep, timedSwipe } from '../../shared/drawer';

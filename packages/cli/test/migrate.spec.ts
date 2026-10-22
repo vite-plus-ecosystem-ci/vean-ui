@@ -4,7 +4,7 @@
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach } from 'vite-plus/test';
 import { countMarkers, legacyPackagesOf, shouldMigrate } from '../src/migrate/detect';
 import type { ProjectSignals } from '../src/migrate/detect';
 import { previewDiff, truncateLine } from '../src/migrate/preview';

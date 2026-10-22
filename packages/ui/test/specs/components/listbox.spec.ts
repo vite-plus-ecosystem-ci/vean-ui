@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { DOMWrapper, mount } from '@vue/test-utils';
 import { ListboxContent, ListboxItem, ListboxRoot } from '@vean/aria/listbox';

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { mount } from '@vue/test-utils';
 import SSeparator from '@/components/separator/separator.vue';
 import { getA11yViolations } from '../../shared/a11y';

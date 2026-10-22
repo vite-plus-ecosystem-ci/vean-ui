@@ -1,7 +1,7 @@
 /**
  * Unit tests for the registry search engine.
  */
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'vite-plus/test';
 import type { RegistryItem } from '../src/registry/schema';
 import { searchRegistry, findSimilarComponents, getRegistryStats } from '../src/registry/search';
 

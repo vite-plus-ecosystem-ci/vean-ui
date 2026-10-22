@@ -1,8 +1,8 @@
 import { fileURLToPath } from 'node:url';
+import { defineConfig } from 'vite-plus';
+import { playwright } from 'vite-plus/test/browser-playwright';
 import vue from '@vitejs/plugin-vue';
-import { playwright } from '@vitest/browser-playwright';
 import UnoCSS from 'unocss/vite';
-import { defineConfig } from 'vitest/config';
 
 /**
  * Browser e2e config — loaded explicitly via `vitest --config vitest.browser.config.ts`.

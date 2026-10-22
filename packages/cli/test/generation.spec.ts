@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { UI_SOURCE_PATH } from '../src/registry/constants';
 import { expandRegistryItemFiles } from '../src/utils/add-components';
 import { transformImports } from '../src/utils/transformers/transform-import';
