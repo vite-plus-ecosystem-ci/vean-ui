@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { computed, reactive, ref, shallowRef } from 'vue';
 import { fromContext, toContext } from '../../../src/shared/vue';
 

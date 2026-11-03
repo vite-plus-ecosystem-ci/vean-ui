@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { mount, flushPromises } from '@vue/test-utils';
 import { STextareaClear } from '@/components/textarea';
 import STextarea from '@/components/textarea/textarea.vue';

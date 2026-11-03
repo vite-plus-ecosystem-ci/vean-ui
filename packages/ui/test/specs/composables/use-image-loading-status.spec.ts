@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it } from 'vite-plus/test';
 import { nextTick, ref } from 'vue';
 import { TEST_DELAYS, delay, setupMockImage } from '../../shared';
 import { useImageLoadingStatus } from '../../../../aria/src/composables/use-image-loading-status';

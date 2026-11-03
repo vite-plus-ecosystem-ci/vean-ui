@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { computed, reactive, ref, shallowReadonly } from 'vue';
 import { withSetup } from '../../shared';
 import { provideConfigProviderContext, useDirection } from '../../../../aria/src/components/config-provider/context';

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { defineComponent, h, ref } from 'vue';
 import SDrawer from '@/components/drawer/drawer.vue';
 import { renderComponent } from '../../shared/render';
