@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { computed, nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import { AffixContent, AffixPlaceholder, AffixRoot, provideAffixUi } from '@vean/aria/affix';

@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { getSortableInsertionRange, getSortableProjectedIndex } from '../../../src/composables/use-sortable-list';
 import type { SortableView } from '../../../src/composables/use-sortable-list';
 

@@ -1,7 +1,7 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
+import { page } from 'vite-plus/test/browser';
 import { defineComponent, h } from 'vue';
 import { provideViewportContext } from '@vean/aria/composables';
-import { page } from 'vitest/browser';
 import SLayout from '@/components/layout/layout.vue';
 import type { LayoutProps } from '@/components/layout/types';
 import { renderComponent } from '../../shared/render';
