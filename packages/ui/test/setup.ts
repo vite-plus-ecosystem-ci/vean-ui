@@ -12,7 +12,7 @@
  * nothing), but crucially, the call never goes through happy-dom's Fetch class, so no async
  * tasks are registered and teardown is clean.
  */
-import { vi } from 'vitest';
+import { vi } from 'vite-plus/test';
 
 // Must run before any component is mounted so the mock is in place when icons first render.
 globalThis.fetch = vi.fn(() =>

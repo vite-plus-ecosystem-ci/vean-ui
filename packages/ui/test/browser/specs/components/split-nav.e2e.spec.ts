@@ -1,7 +1,7 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { defineComponent, h, nextTick, ref } from 'vue';
 import type { Ref } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import SSplitNav from '@/components/split-nav/split-nav.vue';
 import { getA11yViolations } from '../../shared/a11y';
 import { recordAnimationStarts, recordTransitionStarts, waitForMountWindow } from '../../shared/animation';

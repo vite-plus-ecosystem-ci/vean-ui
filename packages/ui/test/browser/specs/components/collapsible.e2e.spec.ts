@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { defineComponent, h } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import { SCollapsibleContent, SCollapsibleTrigger } from '@/components/collapsible';
 import SCollapsible from '@/components/collapsible/collapsible.vue';
 import { recordAnimationStarts, waitForMountWindow } from '../../shared/animation';

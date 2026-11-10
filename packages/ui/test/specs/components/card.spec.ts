@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { h } from 'vue';
 import { mount } from '@vue/test-utils';
 import SCardCollapsibleTrigger from '@/components/card/card-collapsible-trigger.vue';

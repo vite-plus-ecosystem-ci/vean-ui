@@ -5,7 +5,7 @@
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
-import { describe, it, expect, beforeAll, afterAll, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll, beforeEach, afterEach } from 'vite-plus/test';
 import { createDefaultConfig, writeConfig, getConfig } from '../src/utils/get-config';
 import { getProjectInfo } from '../src/utils/get-project-info';
 import { applyPresetToProject } from '../src/commands/preset';

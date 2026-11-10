@@ -4,7 +4,7 @@
  * Tests fetchRegistryItem and fetchRegistryCatalog with real HTTP fetch calls
  * against a locally started server serving fixture JSON files.
  */
-import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll } from 'vite-plus/test';
 import { clearRegistryCache } from '../src/registry/cache';
 import { fetchRegistryItem, fetchRegistryCatalog } from '../src/registry/fetcher';
 import { startRegistryServer } from './helpers/server';

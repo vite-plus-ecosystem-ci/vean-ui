@@ -1,7 +1,7 @@
 import { mkdir, mkdtemp, rm, stat, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import type { JsonObject } from '../src/shared/json';
 import { FIGMA_OUTPUT_DIR, generateFigmaAssets } from '../src/commands/figma';
 import { FIGMA_API_DIR, collectComponentProps } from '../src/commands/figma-components';

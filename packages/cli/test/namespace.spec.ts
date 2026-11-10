@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import { describe, it, expect, beforeAll, afterAll } from 'vite-plus/test';
 import { clearRegistryCache } from '../src/registry/cache';
 import { fetchRegistryItem, fetchRegistryCatalog } from '../src/registry/fetcher';
 import {

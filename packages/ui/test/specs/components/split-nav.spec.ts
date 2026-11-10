@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { defineComponent, h, nextTick, ref, shallowRef } from 'vue';
 import { mount } from '@vue/test-utils';
 import SSplitNav from '@/components/split-nav/split-nav.vue';
