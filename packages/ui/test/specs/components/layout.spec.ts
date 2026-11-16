@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { defineComponent, h, nextTick, ref } from 'vue';
 import type { MaybeRefOrGetter } from 'vue';
 import { mount } from '@vue/test-utils';

@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { mount } from '@vue/test-utils';
 import { SInputClear } from '@/components/input';
 import SInput from '@/components/input/input.vue';

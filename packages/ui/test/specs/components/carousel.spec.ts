@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 import { h, nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import { SCarousel } from '@/components/carousel';

@@ -1,6 +1,6 @@
 /** Test utility functions and classes */
 
-import { vi } from 'vitest';
+import { vi } from 'vite-plus/test';
 /** Constants for common test delays */
 // Re-export vi for convenience in test files that use shared utilities
 import { createApp, defineComponent, h } from 'vue';

@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { h } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import SDrawer from '@/components/drawer/drawer.vue';
 import {
   HEIGHT_VAR,

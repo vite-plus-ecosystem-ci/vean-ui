@@ -4,7 +4,7 @@
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach } from 'vite-plus/test';
 import { readRegistryWithIncludes, createRegistryItem, createRegistryCatalog } from '../src/registry/loader';
 import type { RegistryItem } from '../src/registry/schema';
 

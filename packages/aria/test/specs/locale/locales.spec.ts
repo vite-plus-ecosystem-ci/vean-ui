@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 // `resolveLocaleDirection` is consumed by ConfigProvider but not part of the
 // public `/locale` entry, so the test reaches into the module directly.
 import { resolveLocaleDirection } from '../../../src/locale/locales';
