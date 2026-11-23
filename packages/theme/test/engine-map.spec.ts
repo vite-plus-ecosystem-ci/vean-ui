@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { emitThemeCss, generatePaletteCss } from '../src/emit';
 import { LITERAL_DEFAULTS } from '../src/literals';
 import { PALETTE_KEYS, PALETTE_LEVELS, paletteChannel, paletteColor, simpleChannel, simpleColor } from '../src/palette';

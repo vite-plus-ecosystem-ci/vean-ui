@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { useStateMachine } from '../../../../aria/src/composables/use-state-machine';
 
 describe('useStateMachine', () => {

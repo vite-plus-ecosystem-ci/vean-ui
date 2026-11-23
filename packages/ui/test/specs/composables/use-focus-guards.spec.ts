@@ -1,4 +1,4 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import { useFocusGuards } from '../../../../aria/src/composables/use-focus-guards';

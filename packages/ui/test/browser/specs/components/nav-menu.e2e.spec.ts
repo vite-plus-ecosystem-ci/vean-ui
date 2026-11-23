@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { cdp, page, userEvent } from 'vitest/browser';
+import { describe, expect, it } from 'vite-plus/test';
+import { cdp, page, userEvent } from 'vite-plus/test/browser';
 import type { NavMenuOptionData } from '@/components/nav-menu';
 import SNavMenu from '@/components/nav-menu/nav-menu.vue';
 import { renderComponent } from '../../shared/render';

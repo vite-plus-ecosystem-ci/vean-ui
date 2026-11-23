@@ -101,7 +101,6 @@
     "rimraf": "^6.1.4",
     "tsx": "^4.23.15",
     "typescript": "catalog:",
-    "vite-plus": "catalog:",
-    "vitest": "5.1.0"
+    "vite-plus": "catalog:"
   }
 }

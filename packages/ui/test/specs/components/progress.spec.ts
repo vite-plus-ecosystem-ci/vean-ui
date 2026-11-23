@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test';
 import { mount } from '@vue/test-utils';
 import SConfigProvider from '@/components/config-provider/config-provider.vue';
 import { progress } from '@/components/progress';

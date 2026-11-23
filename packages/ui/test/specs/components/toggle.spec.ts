@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { mount } from '@vue/test-utils';
 import SToggle from '@/components/toggle/toggle.vue';
 import { getA11yViolations } from '../../shared/a11y';

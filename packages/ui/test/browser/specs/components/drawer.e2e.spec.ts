@@ -1,6 +1,6 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
+import { page, userEvent } from 'vite-plus/test/browser';
 import { defineComponent, h, ref } from 'vue';
-import { page, userEvent } from 'vitest/browser';
 import SDrawer from '@/components/drawer/drawer.vue';
 import { getA11yViolations } from '../../shared/a11y';
 import { sleep } from '../../shared/drawer';

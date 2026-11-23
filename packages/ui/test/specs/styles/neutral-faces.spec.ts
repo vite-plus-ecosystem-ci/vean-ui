@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { anchorVariants } from '@/styles/anchor';
 import { buttonVariants } from '@/styles/button';
 import { stepperVariants } from '@/styles/stepper';

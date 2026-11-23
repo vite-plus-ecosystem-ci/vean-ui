@@ -4,7 +4,7 @@
 import fs from 'fs/promises';
 import os from 'os';
 import path from 'path';
-import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach } from 'vite-plus/test';
 import * as v from 'valibot';
 import { rawConfigSchema } from '../src/registry/config';
 import {

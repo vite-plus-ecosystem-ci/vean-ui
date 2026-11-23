@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { resolveSplitNavSidebarColumns } from '../../../src/components/split-nav/shared';
 import type { SplitNavOptionData } from '../../../src/components/split-nav/types';
 

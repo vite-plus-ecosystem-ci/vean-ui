@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { defineComponent } from 'vue';
 import { mount } from '@vue/test-utils';
 import { useContext } from '../../../src/composables/use-context';

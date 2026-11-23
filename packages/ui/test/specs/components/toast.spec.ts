@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import { SToastProvider, toast } from '@/components/toast';

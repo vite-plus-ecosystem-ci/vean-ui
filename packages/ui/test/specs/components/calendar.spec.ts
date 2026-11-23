@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 import { defineComponent, nextTick, shallowRef } from 'vue';
 import { DOMWrapper, flushPromises, mount } from '@vue/test-utils';
 import { toISODateString } from '@vean/aria/date';

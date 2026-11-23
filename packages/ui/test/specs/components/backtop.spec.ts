@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 import { nextTick } from 'vue';
 import { mount } from '@vue/test-utils';
 import { Backtop } from '@vean/aria/backtop';
